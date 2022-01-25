@@ -14,7 +14,7 @@
   - параметры текста: шрифты, размеры, цвет
   - основные цвета ``variables.css``: 
     ```css
-    root {
+    :root {
       --example-color: #ffffff;
     }
     ```

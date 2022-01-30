@@ -20,5 +20,15 @@
     ```
 
 **3. Адаптивные сетки**
+  - подключаем кастомные медиа запрсы:
+      1. В ``media.css``: ```css@custom-media --desktop (min-width: 900px);```
+      2. В стилях: 
+      ```css
+  @media (--wide-vp) {
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    min-height: 530px;
+  }```
   - сетки для всех состояний (мобильное, планшет, десктоп)
   - перестройка блоков как на макетах
